@@ -31,9 +31,10 @@ const HabitForm = () => {
       <br></br>
 
       <label>Meal prep-able?</label>
-      <select id="type" value={type} name="mealPrepAble" onChange={({ target }) => setType(target.value)}>
-        <option value = "yes" selected>Yes</option>
-        <option value = "no">No</option>
+      <select id="type" value={type} name="type" onChange={({ target }) => setType(target.value)}>
+        <option value = "appetizer/side" selected>Appetizer/Side</option>
+        <option value = "entree">Entree</option>
+        <option value = "dessert">Dessert</option>
       </select>
 
       <br></br>
@@ -64,7 +65,7 @@ const HabitForm = () => {
       <label>Protein Type</label>
       <select id = "mealProteinType" value={proteinType} name="mealProteinType" onChange={({ target }) => setProteinType(target.value)}>
         <option value = "none" selected>None</option>
-        <option value = "beef" selected>Beef</option>
+        <option value = "beef" >Beef</option>
         <option value = "chicken">Chicken</option>
         <option value = "pork">Pork</option>
         <option value = "seafood">Seafood</option>
