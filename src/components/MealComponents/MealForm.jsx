@@ -32,9 +32,9 @@ const HabitForm = () => {
 
       <label>Meal prep-able?</label>
       <select id="type" value={type} name="type" onChange={({ target }) => setType(target.value)}>
-        <option value = "appetizer/side" selected>Appetizer/Side</option>
-        <option value = "entree">Entree</option>
-        <option value = "dessert">Dessert</option>
+        <option value = "yes" selected>Yes</option>
+        <option value = "no">No</option>
+        
       </select>
 
       <br></br>
@@ -44,7 +44,7 @@ const HabitForm = () => {
       <br></br>
 
       <label>Cooking Method</label>
-      <select id ="mealCookMethod" value={cookingMethod} name="mealCookMethod" onChange={({ target }) => setCookingMethod(target.value)}>
+      <select id ="cookingMethod" value={cookingMethod} name="cookingMethod" onChange={({ target }) => setCookingMethod(target.value)}>
         <option value = "Stove/Oven" selected>Stove/Oven</option>
         <option value = "Grill">Grill</option>
         <option value = "Other">Other</option>
