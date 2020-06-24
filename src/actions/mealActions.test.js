@@ -1,4 +1,4 @@
-import { addMeal } from './mealActions';
+import { addMeal, deleteMeal } from './mealActions';
 
 describe('meals actions', () => {
   it('creates a ADD_MEAL action', () => {
@@ -22,4 +22,8 @@ describe('meals actions', () => {
       }
     });
   });
+  //   it('deletes a meal', () => {
+  //     const action = deleteMeal
+
+
 });
