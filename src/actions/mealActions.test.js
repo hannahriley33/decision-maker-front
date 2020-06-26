@@ -22,8 +22,6 @@ describe('meals actions', () => {
       }
     });
   });
-  //   it('deletes a meal', () => {
-  //     const action = deleteMeal
-
 
 });
+
