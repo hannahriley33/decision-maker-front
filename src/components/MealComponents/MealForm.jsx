@@ -3,7 +3,7 @@ import { postMeal } from '../../services/mealApi';
 import { useDispatch } from 'react-redux';
 import { addMeal } from '../../actions/mealActions';
 
-const HabitForm = () => {
+const MealForm = () => {
   const dispatch = useDispatch();
 
   const [name, setName] = useState('');
@@ -81,4 +81,4 @@ const HabitForm = () => {
   );
 };
 
-export default HabitForm;
+export default MealForm;
