@@ -4,7 +4,7 @@ export default class Header extends Component {
   render() {
     return (
       <div>
-        <h1>Decision Maker!</h1>
+        <h4>Home</h4>
       </div>
     );
   }
